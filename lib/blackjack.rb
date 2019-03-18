@@ -28,8 +28,7 @@ def initial_round
   return sum
 end
 
-def hit?(integer)
-  cards = integer
+def hit?
   prompt_user
   input = get_user_input
     if input == "h"
